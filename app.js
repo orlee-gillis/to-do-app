@@ -1,5 +1,6 @@
 window.onload = function() {
-      onReady(;
+      onReady(
+);
 };
  function onReady() {
 const addToDoForm = document.getElementById('addToDoForm');
@@ -29,7 +30,3 @@ Event.preventDefault();
 
     //empty the input
     newToDoText.value = '';
-
-});
-
- }
