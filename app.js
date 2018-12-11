@@ -25,9 +25,15 @@ function onReady() {
       const checkbox = document.createElement('input');
       checkbox.type = "checkbox";
 
+
+
       newLi.textContent = toDo.title;
       toDoList.appendChild(newLi);
       newLi.appendChild(checkbox);
+
+      const deleteIt = document.deleteElement('deleteElement');
+
+      deleteIt();
 
     });
   }
